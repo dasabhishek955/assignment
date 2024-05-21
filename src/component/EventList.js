@@ -58,9 +58,9 @@ function EventList() {
 
     return (
         <div>
-            <div className='heading'>
+            <div className='event-heading'>
                 <h1>Your Events</h1>
-
+                {/* Your Events */}
             </div>
             <div className="tabs-container">
                 <div className="tabs">

@@ -1,4 +1,3 @@
-const authToken = 'your-auth-token-here';
 const apiUrl = 'https://api.fyre-stage.hypersign.id/api/v1/event?page=1&limit=10';
 
 

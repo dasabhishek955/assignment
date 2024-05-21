@@ -11,7 +11,6 @@ const MAX_LENGTH = 100;
 const EventForm = () => {
 
     const [eventName, setEventName] = useState('');
-    const [banner, setBanner] = useState('');
     const [description, setDescription] = useState('');
     const [startDate, setStartDate] = useState('');
     const [endDate, setEndDate] = useState('');

@@ -4,7 +4,7 @@ import { FiMoreVertical } from 'react-icons/fi';
 import { format } from 'date-fns';
 
 function EventCard({ event }) {
-    const statusClass = event.status === 'active' ? 'active' : 'inactive';
+    // const statusClass = event.status === 'active' ? 'active' : 'inactive';
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null);
 
