@@ -1,0 +1,62 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    padding: 0 20px;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-bar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.top-bar-right {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+.top-bar-icon {
+    margin-right: 15%;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    border-color: #aaa;
+    background-color: #473030;
+    width: 30px;
+    height: 30px;
+}
+
+.top-bar-icon img{
+    overflow: hidden;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.profile-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}

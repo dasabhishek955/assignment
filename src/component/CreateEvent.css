@@ -1,0 +1,11 @@
+.component {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #030818;
+}
+
+.Event-page {
+    display: flex;
+    background-color: #030818;
+}

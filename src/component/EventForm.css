@@ -1,0 +1,211 @@
+
+.event-form {
+  margin-top: 33%;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.tags .tag{
+  display: inline-block;
+  padding: 0px 2px;
+}
+
+
+.delete-tag-button{
+  border-radius: 10px;
+  border: none;
+}
+
+.char-count {
+  bottom: 10%;
+  right: 10%;
+  color: #ccc;
+  font-size: 12px;
+  text-align: right;
+}
+
+
+.event-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  min-width: 100%;
+}
+.count-name{
+  margin-left: 60%;
+}
+
+.count-des{
+  margin-left: 50%;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #0f3460;
+  background-color: #020610;
+  color: white;
+  margin-top: 3%;
+  margin-left: 6%;
+  margin-bottom: 5%;
+}
+
+.form-section input[type="file"] {
+  padding: 5px;
+}
+
+.date-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-section div {
+  width: 48%;
+}
+
+.divider {
+  border-right: 2px solid green;
+  height: 100px;
+}
+
+.column {
+  float: left;
+}
+
+.sidebar {
+  float: left;
+  max-width: 30%;
+  text-align: right;
+  color: white;
+  margin-left: 25%;
+  margin-top: 13%;
+  margin-right: 5%;
+
+}
+
+.heading {
+  text-align: right;
+
+}
+
+.sidebar h2 {
+  margin: 0;
+}
+
+
+.info {
+  text-align: center;
+}
+
+.sidebar img {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  padding: 0px 8px;
+}
+
+.create-button {
+  position: fixed;
+  bottom: 0%;
+  background-color: transparent;
+  background-color: rgba(240, 228, 228, 0.1);
+  min-height: 7%;
+  min-width: 61%;
+  text-align: right;
+  align-items: center;
+  backdrop-filter: blur(40px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.save-button {
+  background-color: #0f3460;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 10%;
+  margin-top:1.5%;
+  margin-right: 2%;
+}
+
+
+.tag-area {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  min-width: 100%;
+  align-items: center;
+}
+
+.tag {
+  margin-left: 10%;
+  margin: none;
+}
+
+.save-button:hover {
+  background-color: #533483;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.banner-upload {
+  margin: 20px;
+  text-align: left;
+}
+
+.upload-area {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #020610; 
+  padding: 20px;
+  text-align: left;
+  color: #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 3%;
+  max-width: 85%;
+}
+
+.upload-area:hover {
+  background-color: #333;
+}
+
+.upload-link {
+  color: #4f8ef7; 
+  text-decoration: underline;
+}
+
+.upload-area.active {
+  background-color: #444; 
+  border-color: #4f8ef7; 
+}
+
+.banner-image{
+  left: 0px;
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #798390;
+}

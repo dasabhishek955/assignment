@@ -1,0 +1,11 @@
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 240px;
+    background-color: #030818;
+  }
+  
+  .Home-page {
+    display: flex;
+    background-color: #030818;
+  }

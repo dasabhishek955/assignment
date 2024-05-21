@@ -1,0 +1,98 @@
+.event-card {
+  border: 1px solid #686A73;
+  padding: 2px 2px;
+  width: 300%;
+  margin: 16px;
+  border-radius: 25px;
+  background-color: #191D30;
+  color: white;
+  display: flex;
+  overflow: hidden;
+
+
+}
+
+.event-header  {
+  width: 30%;
+  height: 80%;
+  padding: 0px 1%;
+  border-radius: 15px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.event-details {
+  padding: 16px;
+  flex: 1;
+}
+
+.event-header h3 {
+  margin: 0 0 8px;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.inactive {
+  color: red;
+}
+.event-rewards{
+  background-color: #EB7D13;
+  border-radius: 15%;
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 4px 4px 4px 0;
+}
+
+.event-tags .tag {
+  display: inline-block;
+  background-color: #D6CDBA;
+  border-radius: 45px;
+  padding: 4px 20px;
+  margin: 4px 4px 4px 0;
+  color: #000;
+}
+
+.menu-container {
+  position: relative;
+  top: 25px;
+  right: 15px;
+  color: white;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu {
+  position: absolute;
+  top: 14px;
+  right: 25px;
+  background-color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 15px;
+  min-width: 100px;
+  min-height: 80px;
+  text-align: center;
+}
+.menu img{
+  height: 15px;
+  width: 15px;
+  background-color: #D6CDBA;
+}
+
+.menu-button {
+  display: block;
+  padding: 9px 16px;
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;  
+  color: white;
+}
