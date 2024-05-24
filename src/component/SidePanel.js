@@ -59,11 +59,9 @@ const SidePanel = () => {
                     </div>
                 )
                 }
-
                 {smallSide ? "" : (
                     <button className="documentation">Documentation</button>
-                )
-                }
+                )}
             </div >
         </div >
     );

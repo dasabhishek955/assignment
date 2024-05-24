@@ -1,17 +1,17 @@
-
 .event-form {
   margin-top: 33%;
   padding: 20px;
   border-radius: 10px;
   color: white;
 }
-.tags .tag{
+
+.tags .tag {
   display: inline-block;
   padding: 0px 2px;
 }
 
 
-.delete-tag-button{
+.delete-tag-button {
   border-radius: 10px;
   border: none;
 }
@@ -22,6 +22,7 @@
   color: #ccc;
   font-size: 12px;
   text-align: right;
+  padding-bottom: 3%;
 }
 
 
@@ -30,16 +31,17 @@
 }
 
 .form-section {
-  border: 1px solid #ccc;
   margin-bottom: 15px;
   border-radius: 25px;
   min-width: 100%;
+  background-color: #030818;
 }
-.count-name{
+
+.count-name {
   margin-left: 60%;
 }
 
-.count-des{
+.count-des {
   margin-left: 50%;
 }
 
@@ -68,6 +70,7 @@
 }
 
 .date-section {
+  border: none;
   display: flex;
   justify-content: space-between;
 }
@@ -98,13 +101,11 @@
 
 .heading {
   text-align: right;
-
 }
 
 .sidebar h2 {
   margin: 0;
 }
-
 
 .info {
   text-align: center;
@@ -119,11 +120,11 @@
 
 .create-button {
   position: fixed;
-  bottom: 0%;
+  bottom: 1px;
   background-color: transparent;
   background-color: rgba(240, 228, 228, 0.1);
   min-height: 7%;
-  min-width: 61%;
+  width: 62%;
   text-align: right;
   align-items: center;
   backdrop-filter: blur(40px);
@@ -131,33 +132,100 @@
 }
 
 .save-button {
-  background-color: #0f3460;
+  background-color: #2656D6;
   color: white;
   padding: 10px;
   border: none;
-  border-radius: 30px;
+  border-radius: 5px;
   cursor: pointer;
-  width: 10%;
-  margin-top:1.5%;
+  width: 20%;
+  margin-top: 1.5%;
   margin-right: 2%;
 }
 
 
 .tag-area {
-  border: 1px solid #ccc;
-  margin-bottom: 15px;
-  border-radius: 25px;
-  min-width: 100%;
+  background-color: #020610;
+  color: white;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 7%;
+}
+
+.tags-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.selected-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
+  position: relative;
+  margin-right: 10%;
 }
 
 .tag {
-  margin-left: 10%;
-  margin: none;
+  background-color: #385FE7;
+  border-radius: 25px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: medium;
 }
 
+.tag button {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  background-color: #020610;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  padding: auto;
+}
+
+.tags-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20%;
+}
+
+.tags-selection button {
+  background-color: #020610;
+  border: 2px solid #ccc;
+  border-radius: 13px;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.tags-selection button:hover {
+  background-color: #394163;
+}
+
+
 .save-button:hover {
-  background-color: #533483;
+  background-color: white;
+  color: #000;
 }
 
 
@@ -169,14 +237,14 @@
 
 
 .banner-upload {
-  margin: 20px;
-  text-align: left;
+  padding-bottom: 6%;
 }
 
 .upload-area {
+  display: flex;
   border: 2px solid #ccc;
   border-radius: 10px;
-  background-color: #020610; 
+  background-color: #020610;
   padding: 20px;
   text-align: left;
   color: #ccc;
@@ -184,7 +252,9 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 3%;
-  max-width: 85%;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .upload-area:hover {
@@ -192,18 +262,17 @@
 }
 
 .upload-link {
-  color: #4f8ef7; 
+  color: #4f8ef7;
   text-decoration: underline;
 }
 
 .upload-area.active {
-  background-color: #444; 
-  border-color: #4f8ef7; 
+  background-color: #444;
+  border-color: #4f8ef7;
 }
 
-.banner-image{
+.banner-image {
   left: 0px;
-
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {

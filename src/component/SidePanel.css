@@ -10,6 +10,8 @@
   justify-content: space-between;
   padding: 20px;
   border-radius: 25px;
+  z-index: 1000; 
+
 }
 
 .side-panel-ev{
@@ -24,6 +26,8 @@
   justify-content: space-between;
   padding: 20px;
   border-radius: 25px;
+  z-index: 1000; 
+
 }
 .header {
   display: flex;

@@ -1,28 +1,66 @@
-.top-bar {
+.top-bar-ev{
     position: fixed;
     top: 0;
-    left: 250px;
-    right: 0;
+    left: 110px;
+    right: 10px;
     height: 60px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 78%;
-    height: 50px;
+    min-width: 30%;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0 20px;
-    margin-top: 30px;
+    margin-top: 0.6%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
-    padding: 0 20px;
     z-index: 1000;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+}
+
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 10px;
+    height: 60px;
+    display: flex;
+    min-width: 30%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* margin-top: 30px; */
+    margin-top: 0.6%;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: middle;
+}
+
+.top-icons{
+    text-align: right;
+    padding-right: 1%;
+    margin: auto;
+}
+.top-icons img{
+    max-width: 3%;
+    vertical-align: middle;
+    border: 2px solid #ccc;
+    border-radius: 80px;
+    background-color: white;
+    overflow: hidden;
+    gap: 10%;
+}
+
+.top-icons-ev img{
+    max-width: 3%;
+    vertical-align: middle;
+    padding-left: 20px;
 }
 
 .top-bar-left {
     display: flex;
     align-items: center;
+    width: auto;
 }
 
 .logo {
@@ -32,7 +70,11 @@
 
 .top-bar-right {
     display: flex;
-    align-items: center;
+    margin-left: 85%;
+    padding-right: 5%; 
+}
+
+.top-bar-right img {
     margin-right: 1%;
 }
 
@@ -52,6 +94,12 @@
     align-items: center;
     width: 20px;
     height: 20px;
+}
+
+.icon{
+    padding: 0px 4px;
+    margin-right: 2%;
+    cursor: pointer;
 }
 
 .profile-image img {

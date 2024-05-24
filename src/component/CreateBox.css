@@ -44,5 +44,6 @@
 }
 
 .create-event-button:hover {
-    background-color: #161B29;
+    background-color: white;
+    color: black;
 }

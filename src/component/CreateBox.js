@@ -1,8 +1,6 @@
-// src/components/CreateBox.js
 import React from 'react';
 import './CreateBox.css';
 import { useNavigate } from 'react-router-dom'
-
 
 
 const CreateBox = () => {

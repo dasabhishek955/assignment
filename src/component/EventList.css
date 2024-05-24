@@ -11,8 +11,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* cursor: pointer; */
-
 }
 
 .pagination-buttons {
@@ -53,7 +51,6 @@
   color: white;
   text-align: left;
   font-weight: 20px;
-  /* margin-left: 22%; */
 }
 
 .available-list {
@@ -92,6 +89,10 @@
 .search-container {
   margin-left: auto;
   position: relative;
+}
+
+.hr{
+  color: aqua;
 }
 
 .search-container input {

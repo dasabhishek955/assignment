@@ -60,7 +60,6 @@ function EventList() {
         <div>
             <div className='event-heading'>
                 <h1>Your Events</h1>
-                {/* Your Events */}
             </div>
             <div className="tabs-container">
                 <div className="tabs">
@@ -74,6 +73,7 @@ function EventList() {
                     <input type="text" placeholder="Search events by name or tags" />
                 </div>
             </div>
+            <hr></hr>
             <div className="events-container">
                 {selectedEvents.map(event => (
                     <EventCard key={event.id} event={event} />

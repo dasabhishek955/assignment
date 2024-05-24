@@ -3,7 +3,6 @@ import './EventForm.css';
 import SidePanel from './SidePanel';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import './EventDescription.css';
 import { useDropzone } from 'react-dropzone';
 
 
